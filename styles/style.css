@@ -245,3 +245,40 @@ nav li a{
     font-weight: 500;
     margin-top: 16px;
 }
+
+/*  Ready To Think Section  Styles */
+#ready-to-think-section{
+    margin: 120px auto;
+}
+.ready-to-think-section-container{
+    background-color: #f7f6f2;
+    border-radius: 12px;
+}
+.ready-to-think-contents{
+    text-align: center;
+    padding: 80px 40px;
+}
+.section-title{
+    color: #001931;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+.section-des{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.sectiont-text{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 16px;
+    text-align: center;
+}
