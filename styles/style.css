@@ -136,3 +136,65 @@ nav li a{
 .banner-btn-2 i {
     background-color: transparent;
 }
+
+/* Note Section Styles */
+#note-section{
+    margin-top: 100px;
+}
+.note-section-title{
+    color: #001931;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+.note-section-des{
+    font-size: 16px;
+    color: #627382;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.note-card-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.card{
+    width: 322px;
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow:0px 0px 12px 0px #0000000f;
+    padding: 24px;
+    text-align: center;
+    
+}
+.card-content{
+    margin: 30px auto;
+}
+
+.card-icon{
+    background-color: #f95555;
+    border-radius: 50%;
+    width: 60px;
+    margin: auto;
+    
+}
+.card-icon img{
+    padding: 13px;
+}
+.card-title{
+    color: #001931;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 16px auto;
+}
+.card-des{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
