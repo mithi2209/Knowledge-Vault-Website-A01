@@ -282,3 +282,38 @@ nav li a{
     margin-top: 16px;
     text-align: center;
 }
+
+/* Footer Section Styles */
+#footer{
+    background-color: #001931;
+    padding: 120px 120px 30px 120px;
+}
+.footer-content{
+    margin-bottom: 80px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-links h4{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 16px;
+
+}
+.social-links a{
+    margin-right: 16px;
+}
+.footer-text{
+    color: #fafafa;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 30px;
+
+}
