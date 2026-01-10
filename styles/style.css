@@ -57,9 +57,10 @@ nav li a{
 
 /* Banner Styles */
 #banner{
-    background: url("../images/hero-bg.png");
+    background:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/hero-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
+    
     
     
 }
@@ -173,7 +174,7 @@ nav li a{
     
 }
 .card-content{
-    margin: 30px auto;
+    margin: 40px auto;
 }
 
 .card-icon{
@@ -190,11 +191,57 @@ nav li a{
     color: #001931;
     font-size: 24px;
     font-weight: 600;
-    margin: 16px auto;
+    margin-top: 16px;
+    line-height: 29px;
 }
 .card-des{
     color: #627382;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    margin-top: 16px;
+}
+
+/* Solution Section Styles */
+#solution-section{
+    margin-top: 120px;
+}
+.solution-section-container{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+
+.solution-content h5{
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.solution-content h2{
+    color: #001931;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-top: 40px;
+
+}
+.solution-content p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 16px;
+}
+
+.solution-check-list{
+    margin-top: 40px;
+}
+.solution-check-list li{
+    color: #001931 ;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 16px;
 }
