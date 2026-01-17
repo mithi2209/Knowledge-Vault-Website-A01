@@ -213,6 +213,7 @@ nav li a{
 }
 
 
+
 .solution-content h5{
     color: #469165;
     font-size: 18px;
@@ -229,9 +230,10 @@ nav li a{
 }
 .solution-content p{
     color: #627382;
+    max-width: 700px;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 28px;
     margin-top: 16px;
 }
 
@@ -239,11 +241,16 @@ nav li a{
     margin-top: 40px;
 }
 .solution-check-list li{
+    display: flex;
+    align-items: center;
     color: #001931 ;
     list-style: none;
     font-size: 16px;
     font-weight: 500;
     margin-top: 16px;
+}
+.solution-check-list li img{
+    margin-right: 10px;
 }
 
 /*  Ready To Think Section  Styles */
@@ -317,3 +324,237 @@ nav li a{
     margin-top: 30px;
 
 }
+
+
+
+/* Responsive Styles for Mobile Device */
+ @media screen and (max-width : 576px) {
+
+/* Navbar Styles */
+    nav{
+        padding:16px ;
+    }
+   nav ul{
+    display: none;
+   }
+   nav img{
+    width: 110px;
+   }
+   .nav-btn{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 16px;
+   }
+/* Banner Styles */
+   .banner-container{
+    padding: 50px;
+   }
+
+   #banner .early-access-text p{
+    font-size: 14px;
+    
+   }
+
+   .banner-title{
+    font-size: 25px;
+    margin-top: 18px;
+   }
+   .banner-des{
+    font-size: 14px;
+    line-height: normal;
+   }
+
+   .banner-btn{
+    flex-direction: column;
+    align-items: center;
+   }
+   .btn{
+    font-size: 14px;
+    font-weight: 500;
+   }
+
+/* Note Section Styles */
+   #note-section{
+        margin-top: 60px;
+   }
+    .note-section-title{
+        font-size: 25px;
+    }
+    .note-section-des{
+        margin: 16px 20px;
+        line-height: 25px;
+    }
+    .note-card-container{
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 30px;
+   }
+   
+    .card{
+        width: 90%;
+    }
+
+    .card-title{
+        font-size: 22px;
+    }
+
+/* Solution Section */
+    #solution-section{
+        margin-top: 70px;
+    } 
+    .solution-section-container{
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 20px;
+        gap: 50px;
+    }
+    .idea-img img{
+        width: 100%;
+    }
+    .solution-content h2{
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 20px;
+    }
+    .solution-content p{
+        line-height: 24px;
+
+    }
+
+/* Ready To Think Section Styles */
+   #ready-to-think-section{
+        margin: 50px 20px;
+   }
+   .ready-to-think-contents{
+        padding: 60px 30px;
+   }
+   .section-title {
+        font-size: 28px;
+        line-height: 40px;
+   }
+   .section-des{
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 20px;
+
+   }
+   .sectiont-text{
+        margin-top: 30px;
+        font-size: 14px;
+   }
+
+/* Footer Section Styles */
+   #footer{
+        padding: 80px 30px 20px 30px;
+   }
+   .footer-logo img{
+        width: 80%;
+   }
+   .social-links h4{
+        font-size: 18px;
+        margin-bottom: 10px;
+   }
+   .link-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+   }
+   .footer-text{
+        font-size: 14px;
+        
+   }
+ }
+
+ /* Responsive Styles For Medium Device */
+ @media screen and (min-width:576px) and (max-width:992px) {
+
+/* Navbar Styles */
+    nav{
+        padding:14px ;
+    }
+
+    nav ul{
+        gap: 20px;
+    }
+
+/* Banner Styles */
+    .banner-container{
+        padding: 80px;
+    }
+    .banner-title{
+        font-size: 35px;
+    }
+    .banner-des{
+        font-size: 16px;
+        line-height: normal;
+    }
+
+/* Note Sction Styles */
+
+    #note-section{
+        margin: 70px 20px 0 20px;
+    }
+    
+     .note-section-title{
+        font-size: 35px;
+    }
+    .note-section-des{
+        max-width: 500px;
+        text-align: center;
+        margin: 16px auto;
+        line-height: 28px;
+    }
+
+   .note-card-container{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 30px;
+    }
+    .card{
+        width: 100%;
+    }
+
+/* Solution Section */
+    #solution-section{
+        margin-top: 80px;
+    }
+
+    .solution-section-container{
+        margin: 0 20px;
+        gap: 20px;
+        
+
+    }
+    .idea-img img{
+       width: 100%;
+    }
+
+    .solution-content h2{
+        font-size: 28px;
+        line-height: 32px;
+        margin-top: 10px;
+    }
+
+    .solution-content p {
+        max-width: 250px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .solution-check-list{
+        margin-top: 20px;
+    }
+
+/* Ready To Think Section Styles */
+   #ready-to-think-section{
+        margin: 50px 20px;
+   }
+   
+    .sectiont-text{
+        margin-top: 35px;
+    }
+/* Footer Section Styles */
+    #footer{
+        padding: 80px 80px 30px 80px;
+    }
+ }
